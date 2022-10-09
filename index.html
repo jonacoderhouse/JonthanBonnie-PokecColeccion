@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTREGA FINAL JAVASCRIPT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="body">
+
+    <header class="header">
+
+        <div class="titulo-Poke">
+            <img src="./image/pokemon-gif-render.gif" alt="PIKACHU">
+            <h1>POKE Coleccion </h1>
+        </div>
+
+        <form id="formularioLogueo">
+            <input id="inputNombre" type="text" name="nombre">
+            <div  id="contenedorSaludo"> </div>
+        </form>
+
+    </header>
+
+    <main id="main">
+
+    <section>
+        <form id="formulario"  action="" >
+            <input id="inputoPoke" type="text" name="pokemon" autocomplete="off" placeholder="BUSCA TU POKE FAVORITO">
+        </form>
+    </section>
+
+    <section>
+        <div data-poke-card class="poke-card">
+            <div data-poke-name>PoKe Coleccion</div>
+            <div data-poke-img-container class="img-container">
+                <img data-poke-img class="poke-img" src="./image/poke-shadow.png" />
+            </div>
+            <div data-poke-id></div>
+            <div data-poke-types class="poke-types"></div>
+            <div data-poke-stats class="poke-stats"></div>
+        </div>
+    </section>
+
+</main>
+
+
+
+</body>
+
+</html>
